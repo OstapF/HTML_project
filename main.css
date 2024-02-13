@@ -1,0 +1,401 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.slideOne {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+
+.retreatOne {
+    height: 80vh;
+    width: 10vw;
+    background-color: #19191B;
+}
+
+.retreatTwo {
+    height: 80vh;
+    width: 5vw;
+    background-color: #19191B;
+}
+
+.textOne {
+    height: 80vh;
+    width: 30vw;
+    background-color: #19191B;
+    color: #FFFFFF;
+    font-family: Lato, sans-serif;
+
+}
+
+.textOne > h1 {
+    font-size: 80px;
+    margin-top: 15vh;
+    line-height: 84px;
+}
+
+.textOne > p {
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.70);
+    line-height: 39px;
+}
+
+.imageOne {
+    height: 80vh;
+    width: 55vw;
+    background-color: #19191B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageOne > img {
+    width: 35vw;
+    margin-left: 18vw;
+}
+
+.buttonSlideOne > label > input {
+    color: #FFF;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
+    background-color: #5454D4;;
+    border-radius: 5px;
+    backdrop-filter: blur(1px);
+    padding: 1vh 1.5vw;
+}
+
+article {
+    height: 0.1vh;
+    width: 100vw;
+    background-color: #19191B;
+}
+
+/*-------------------------Slide 2------------------------------------*/
+.slideTwo {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+
+.retreat {
+    height: 100vh;
+    width: 10vw;
+    background-color: #19191B;
+}
+
+.retreatCenterTwo {
+    width: 80vw;
+    height: 1vh;
+    background-color: #19191B;
+}
+
+.textSlideTwo {
+    height: 100vh;
+    width: 80vw;
+    background-color: #19191B;
+    display: flex;
+    flex-direction: column;
+}
+
+.textTwo {
+    height: 20vh;
+    width: 80vw;
+    background-color: #19191B;
+    display: flex;
+}
+
+.textH {
+    width: 40vw;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    color: #FFF;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 2vh;
+    line-height: 70px;
+}
+
+.textP {
+    width: 40vw;
+    font-family: Lato, sans-serif;
+    font-size: 21px;
+    color: rgba(255, 255, 255, 0.70);
+    display: flex;
+    letter-spacing: -0.657px;
+    line-height: 39px
+
+}
+
+.imageTwo {
+    height: 79vh;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageTwo > img {
+    height: 70vh;
+    width: 80vw;
+    margin-bottom: 2vh;
+}
+
+section {
+    height: 10vh;
+    width: 100vw;
+    background-color: #19191B;
+}
+
+/*----------------------------------------Slide3-----------------------------------------------*/
+.slideThree {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.textSlideThree {
+    height: 100vh;
+    width: 80vw;
+    background-color: #19191B;
+    display: flex;
+    flex-direction: column;
+}
+
+.textThree {
+    height: 20vh;
+    width: 80vw;
+    margin-bottom: 10vh;
+}
+
+.threeClassesOne {
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+}
+
+.threeClassesTwo {
+    height: 30vh;
+    width: 80vw;
+    display: flex;
+}
+
+.retreatThree {
+    height: 100vh;
+    width: 10vw;
+    background-color: #19191B;
+}
+
+.textThree {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 70px;
+}
+
+.development {
+    width: 33.3%;
+    height: 30vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.UIdesigner {
+    width: 33.3%;
+    height: 30vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.graphikDesigner {
+    width: 33.3%;
+    height: 30vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.motionGraphik {
+    width: 33.3%;
+    height: 30vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.photography {
+    width: 33.3%;
+    height: 30vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.videography {
+    width: 33.3%;
+    height: 30vh;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.pText {
+    color: rgba(255, 255, 255, 0.70);
+    text-align: center;
+    font-family: Lato, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px; /* 140% */
+    letter-spacing: -0.5px;
+}
+
+.hText {
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.conteiner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.image2 {
+    position: absolute;
+}
+
+/*-------------------------------------slide4-------------------------------------------------*/
+.slideFour {
+    display: flex;
+    height: 80vh;
+    width: 100vw;
+}
+
+.retreatFour {
+    height: 80vh;
+    width: 10vw;
+    background-color: #19191B;
+}
+
+.portfolio {
+    height: 80vh;
+    width: 80vw;
+    background-color: #19191B;
+    display: flex;
+    flex-direction: column;
+}
+
+.textPortfolio {
+    height: 20vh;
+    width: 80vh;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.imagePortfolio {
+    height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.portfolioOne{
+    background-image: url("mainImage/image 29.png");
+    background-size: cover;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 14px;
+    border: #1E1E20 solid 18px;
+}
+.portfolioTwo{
+    background-image: url("mainImage/image 28.png");
+    background-size: cover;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 14px;
+    border: #1E1E20 solid 18px;
+}
+.portfolioThree{
+    background-image: url("mainImage/image 30.png");
+    background-size: cover;
+    height: 30vh;
+    width: 20vw;
+    border-radius: 14px;
+    border: #1E1E20 solid 18px;
+}
+/*------------------------------------------Slide5-------------------------------------------------*/
+.slideFive{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    background-color: rgb(33, 31, 31);
+}
+.textSlideFive{
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.buttonSlideFive{
+    height: 40vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.buttonSlideFive>label>input{
+    color: #FFF;
+    font-family: Lato, sans-serif;
+    background-color: #5454D4;
+    text-align: center;
+    font-size: 21px;
+    backdrop-filter: blur(1px);
+    padding: 1vh 1.5vw;
+    border-radius: 5px;
+}
