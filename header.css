@@ -4,6 +4,9 @@ header {
     width: 100vw;
     display: flex;
 }
+body{
+    margin: 0;
+}
 
 .logoHeader {
     color: white;
